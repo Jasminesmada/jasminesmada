@@ -1131,7 +1131,7 @@ apply now
 */
 
 section.apply-now {
-  background-image: url(../images/bgend.png);
+  background-image: url(../images/bgend.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1367,7 +1367,7 @@ our facts
 */
 
 section.our-facts {
-  background-image: url(../images/latesbg.png);
+  background-image: url(../images/latesbg.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1606,7 +1606,7 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/latesbg.png);
+  background-image: url(../images/latesbg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
