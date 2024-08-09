@@ -1,1 +1,2 @@
-User-agent: GoogleBot
+User-agent: *
+Sitemap: https://jasminesmada.com/sitemap.xml
