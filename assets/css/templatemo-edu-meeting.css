@@ -697,6 +697,12 @@ banner
 */
 
 .main-banner {
+  background-image: url(../images/bgutama.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 0px;
   position: relative;
   max-height: 100%;
   overflow: hidden;
