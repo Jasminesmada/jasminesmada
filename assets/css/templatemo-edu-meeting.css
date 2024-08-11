@@ -1044,6 +1044,12 @@ section.upcoming-meetings .categories .main-button-red a {
   text-align: center;
 }
 
+.main-button-red-news {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
 
 
 .meeting-item {
