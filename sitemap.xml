@@ -9,27 +9,32 @@
 
 <url>
   <loc>https://jasminesmada.com/</loc>
-  <lastmod>2024-08-09T08:03:53+00:00</lastmod>
+  <lastmod>2024-08-13T23:38:50+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://jasminesmada.com/index.html</loc>
-  <lastmod>2024-08-09T08:03:53+00:00</lastmod>
+  <lastmod>2024-08-13T23:38:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jasminesmada.com/p5-smada.html</loc>
+  <lastmod>2024-08-13T23:38:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jasminesmada.com/events.html</loc>
-  <lastmod>2024-08-09T08:03:53+00:00</lastmod>
+  <lastmod>2024-08-13T23:38:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jasminesmada.com/event-details-1.html</loc>
-  <lastmod>2024-08-09T08:03:53+00:00</lastmod>
+  <lastmod>2024-08-13T23:38:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jasminesmada.com/event-details-2.html</loc>
-  <lastmod>2024-08-09T08:03:53+00:00</lastmod>
+  <lastmod>2024-08-13T23:38:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
