@@ -26,10 +26,7 @@
 
         var $grid = $(".grid").isotope({
 			itemSelector: ".all",
-			percentPosition: true,
-			masonry: {
-            columnWidth: ".all"
-		}
+			layoutMode: 'fitRows',
         });
 
 
@@ -147,6 +144,26 @@
 				}
 			}
 		})
+
+		$('.owl-courses-item-committee').owlCarousel({
+			items:4,
+			loop:true,
+			nav: true,
+			autoplay: true,
+			margin:30,
+				responsive:{
+					0:{
+						items:1
+					},
+					600:{
+						items:2
+					},
+					1000:{
+						items:4
+					}
+				}
+			})
+		
 	
 
 	// Menu Dropdown Toggle
