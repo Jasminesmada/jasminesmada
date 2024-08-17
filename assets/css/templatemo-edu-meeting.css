@@ -689,7 +689,6 @@ header
   }
 }
 
-
 /* 
 ---------------------------------------------
 banner
@@ -704,7 +703,7 @@ banner
   background-size: cover;
   padding: 0px 0px;
   position: relative;
-  max-height: 100%;
+  min-height: 936px;
   overflow: hidden;
   margin-bottom: -7px;
 }
@@ -715,7 +714,6 @@ ul.social-links li {
   padding-right: 5px;
 }
 ul.social-links li a {
-  padding: px;
   opacity: 0.6;
 }
 ul.social-links li.label {
@@ -728,6 +726,7 @@ ul.social-links li a:hover {
 }
 ul.social-links li a img {
   height: 30px;
+  object-fit: cover;
 }
 
 ul.social-links li.label {
@@ -1149,6 +1148,8 @@ section.apply-now {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 140px 0px;
+  position: relative;
+  overflow: hidden;
 }
 
 section.apply-now .item {
@@ -1540,11 +1541,13 @@ our facts
 
 section.our-facts {
   background-image: url(../images/latesbg.jpg);
-  background-position: center center;
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 70px 0px 125px 0px;
+  position: relative;
+  overflow: hidden;
 }
 
 section.our-facts h2 {
