@@ -969,18 +969,11 @@ upcoming meetings
 section.upcoming-meetings {
   background-image: url(../images/meetings-bg.jpg);
   background-position: center center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-repeat: repeat;
-  background-size: 100%;
+  background-size: cover;
   padding-top: 230px;
   padding-bottom: 110px;
-}
-
-/* Prevent background image scaling up on mobile */
-@media (max-width: 768px) { /* Adjust breakpoint as needed */
-  section.our-facts {
-    background-size: 100%; 
-  }
 }
 
 .upcoming-meetings .section-heading { /* Increased Specificity */
@@ -1134,7 +1127,7 @@ section.apply-now {
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; /* Default for larger screens */
   padding: 140px 0px;
 }
 
@@ -1236,8 +1229,8 @@ section.our-courses {
   background-image: url(../images/meetings-bg.jpg);
   background-position: center center;
   background-attachment: fixed;
-  background-repeat: repeat;
-  background-size: 100%; /* Default for larger screens */
+  background-repeat: no-repeat;
+  background-size: cover; /* Default for larger screens */
   padding-top: 140px;
   padding-bottom: 130px;
 }
@@ -1245,7 +1238,7 @@ section.our-courses {
 /* Prevent background image scaling up on mobile */
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
   section.our-courses {
-    background-size: 100%; 
+    background-size: cover; 
   }
 }
 
@@ -1623,17 +1616,10 @@ section.contact-us {
   background-image: url(../images/meetings-bg.jpg);
   background-position: center center;
   background-attachment: fixed;
-  background-repeat: repeat;
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 140px 0px 0px 0px;
 }
-
-/* Prevent background image scaling up on mobile */
-@media (max-width: 768px) { /* Adjust breakpoint as needed */
-  section.contact-us {
-    background-size: 100%; 
-  }
-  }
 
 section.contact-us #contact {
   background-color: #fff;
