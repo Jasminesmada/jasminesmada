@@ -1783,6 +1783,11 @@ section.heading-page img{
 max-width: 250px;
 }
 
+section.heading-page .logo6{
+max-width: 500px;
+margin-bottom: -25px;
+}
+
 section.heading-page h6 {
   margin-top: 0px;
   font-size: 15px;
