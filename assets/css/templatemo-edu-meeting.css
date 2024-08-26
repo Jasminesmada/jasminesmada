@@ -1969,8 +1969,9 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content .book p {
-  color: #1f272b;
+  color: #008bd1;
   font-size: 14px;
+  text-decoration: underline;
 }
 
 .meeting-single-item .down-content .book p:hover {
