@@ -852,8 +852,13 @@ services
 */
 
 .services {
-  margin-top: -135px;
-  position: absolute;
+  background-image: url(../images/meetings-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: 100%;
 }
 
@@ -2115,10 +2120,6 @@ responsive
 
   .main-banner .caption .main-button-red {
     margin-top: 15px;
-  }
-
-  .services {
-    margin-top: 60px;
   }
 
   section.upcoming-meetings {
