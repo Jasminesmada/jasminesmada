@@ -1,2 +1,4 @@
 User-agent: *
+Disallow: /resources/
+Disallow: /node_modules/
 Sitemap: https://jasminesmada.com/sitemap.xml
